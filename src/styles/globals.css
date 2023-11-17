@@ -1,7 +1,13 @@
+@import url("http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin");
+
+* {
+  background-color: var(--background);
+  font-family: Ubuntu;
+}
 :root {
   --text: #dedede;
   --background: #050505;
-  --primary: #5cb28d;
+  --primary: #59d39f;
   --secondary: #afa18c;
   --accent: #88af9f;
 }
