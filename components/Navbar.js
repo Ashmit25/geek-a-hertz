@@ -11,6 +11,10 @@ const links = [
         label: "Contact",
         href: "/contact",
     },
+    {
+      label: "About Us",
+      href: "/about",
+  },
 ];
 
 function Navbar() {
