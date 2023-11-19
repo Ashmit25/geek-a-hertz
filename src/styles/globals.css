@@ -1,9 +1,23 @@
-@import url("http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin");
+/* @import url("http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin");*/
 
 * {
   background-color: var(--background);
   font-family: Ubuntu;
 }
+@font-face {
+  font-family: Ubuntu;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(../fonts/Ubuntu-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
 :root {
   --text: #dedede;
   --background: #050505;

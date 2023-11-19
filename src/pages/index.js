@@ -12,7 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
-      <h1 className={styles.heading}>hello world</h1>
+      <div className={styles.body}>
+        <h1 className={styles.heading}>hello world</h1>
+      </div>
+      
     </>
   );
 }

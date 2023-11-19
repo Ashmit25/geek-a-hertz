@@ -23,3 +23,7 @@
 .navlink:hover {
     color: var(--primary);
 }
+
+.body {
+    margin: 0 3rem 0 3rem;
+}
