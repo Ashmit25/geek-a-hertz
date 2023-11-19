@@ -2,12 +2,6 @@
     color: var(--primary);
 }
 
-.navhead {
-    color: var(--primary);
-    font-size: 45px;
-    text-decoration: underline black;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -45,9 +39,11 @@
 .body {
     margin: 0 3rem 0 3rem;
     color: var(--primary);
+    padding-top: 3rem;
 }
 
 .para {
     font-size: 18px;
     color: var(--text);
 }
+

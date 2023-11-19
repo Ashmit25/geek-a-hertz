@@ -2,6 +2,7 @@ import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import React from 'react'
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const links = [
     {
@@ -22,7 +23,14 @@ function Navbar() {
   const pathName = usePathname();
   return (
     <div className={styles.navbar}>
-      <Link href="/"><h1 className={styles.navhead}>VIROR</h1></Link>
+      <Link href="/">
+        <Image
+          src="/viror.png"
+          alt="VIROR"
+          width={140}
+          height={55}
+        />
+      </Link>
       <div className={styles.navlinks}>
         {links.map(({label,href}) => (
             <Link key={label} href={href}>
