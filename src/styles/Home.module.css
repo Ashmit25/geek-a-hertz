@@ -2,10 +2,16 @@
     color: var(--primary);
 }
 
+.navhead {
+    color: var(--primary);
+    font-size: 45px;
+    text-decoration: underline black;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 0 2rem 0 2rem;
+    padding: 1.25rem 1.75rem 0 1.75rem;
     align-items: center;
 }
 
@@ -18,13 +24,30 @@
 
 .navlink {
     color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: underline black;
 }
 
 .navlink:hover {
     color: var(--primary);
+
+}
+
+.activenav {
+    color: var(--primary);
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: underline #53d49c86;
+    text-decoration-thickness: 3px;
 }
 
 .body {
     margin: 0 3rem 0 3rem;
     color: var(--primary);
+}
+
+.para {
+    font-size: 18px;
+    color: var(--text);
 }

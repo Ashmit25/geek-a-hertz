@@ -1,8 +1,7 @@
-/* @import url("http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin");*/
-
 * {
   background-color: var(--background);
   font-family: Ubuntu;
+  margin-top: -0px;
 }
 @font-face {
   font-family: Ubuntu;
@@ -21,7 +20,7 @@
 :root {
   --text: #dedede;
   --background: #050505;
-  --primary: #59d39f;
+  --primary: #53d49c;
   --secondary: #afa18c;
   --accent: #88af9f;
 }

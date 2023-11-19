@@ -1,6 +1,7 @@
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import React from 'react'
+import { usePathname } from "next/navigation";
 
 const links = [
     {
@@ -18,13 +19,14 @@ const links = [
 ];
 
 function Navbar() {
+  const pathName = usePathname();
   return (
     <div className={styles.navbar}>
-      <Link href="/"><h1 className={styles.heading}>VIROR</h1></Link>
+      <Link href="/"><h1 className={styles.navhead}>VIROR</h1></Link>
       <div className={styles.navlinks}>
         {links.map(({label,href}) => (
             <Link key={label} href={href}>
-                <p className={styles.navlink}>{label}</p>
+                <p className={pathName == href ? styles.activenav : styles.navlink}>{label}</p>
             </Link>
         ))}
       </div>

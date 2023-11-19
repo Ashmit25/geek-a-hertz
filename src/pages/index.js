@@ -13,7 +13,8 @@ export default function Home() {
       </Head>
       <Navbar/>
       <div className={styles.body}>
-        <h1 className={styles.heading}>hello world</h1>
+        <h1 className={styles.heading}>This is the Home page</h1>
+        <p className={styles.para}>text</p>
       </div>
       
     </>
