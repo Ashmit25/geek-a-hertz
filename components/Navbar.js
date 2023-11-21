@@ -10,12 +10,12 @@ const links = [
       href: "/",
     },
     {
-        label: "Contact",
-        href: "/contact",
+        label: "Product",
+        href: "/product",
     },
     {
-      label: "About Us",
-      href: "/about",
+      label: "Contact",
+      href: "/contact",
   },
 ];
 
