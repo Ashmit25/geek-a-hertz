@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import Hamburger from "./hamburger";
 
 const links = [
   {
@@ -35,6 +36,7 @@ function Navbar() {
           </Link>
         ))}
       </div>
+      <Hamburger />
     </div>
   );
 }

@@ -38,6 +38,7 @@ export default function Home() {
           alt="placeholder image"
           width={400}
           height={400}
+          priority
         />
       </main>
       <div id="about_us">
