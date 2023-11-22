@@ -29,7 +29,9 @@ export default function Home() {
               <button>Who Are We?</button>
             </a>
             <Link href="/products">
-              <button>Click Me!! ➡</button>
+              <button>
+                Our Products ➡
+              </button>
             </Link>
           </div>
         </div>

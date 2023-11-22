@@ -33,7 +33,7 @@
   padding: 15px 0;
   text-indent: 20px;
   border: 2px solid var(--secondary);
-  border-radius: 2px;
+  border-radius: 3px;
   font-size: 20px;
   color: var(--secondary);
 }
@@ -59,7 +59,7 @@
   border: none;
   border-radius: 10px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   font-size: 20px;
   margin-top: 20px;
@@ -68,8 +68,8 @@
 
 .button[type="submit"]:hover,
 .button[type="submit"]:active {
-  background-color: var(--secondary);
-  transition: ease-in 0.2s;
+  background-color: #53d49cbe;
+  transition: ease-in-out 0.2s;
   border: none;
 }
 
@@ -81,8 +81,7 @@
 
 .heading {
   text-align: center;
-  font-size: 30px;
-  font-family: "Bogart", sans-serif;
+  font-size: 40px;
   color: var(--primary);
   font-weight: bold;
   margin: 40px;
