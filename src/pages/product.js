@@ -13,9 +13,7 @@ function about() {
             <link rel="icon" href="/leaf.png" />
         </Head>
         <Navbar />
-        <div className={styles.body}>
-            <h1>This is the Product page</h1>
-        </div>
+        
     </>
   )
 }

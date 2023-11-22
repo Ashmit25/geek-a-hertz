@@ -1,8 +1,3 @@
-* {
-  background-color: var(--background);
-  font-family: Ubuntu;
-  
-}
 @font-face {
   font-family: Ubuntu;
   src: url(../fonts/Ubuntu-Regular.ttf);
@@ -24,3 +19,46 @@
   --secondary: #afa18c;
   --accent: #88af9f;
 }
+
+* {
+  background-color: var(--background);
+  font-family: Ubuntu;
+}
+
+h1 {
+  color: var(--primary);
+  font-size: 40px;
+}
+
+h2 {
+  color: var(--primary);
+  font-size: 30px;
+  padding-bottom: 1rem;
+}
+
+p {
+  color: var(--text);
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 2em;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+button {
+  background-color: transparent;
+  color: var(--primary);
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 7.5px;
+  font-size: 16px;
+  outline: 2px solid var(--primary);
+  cursor: pointer;
+}
+

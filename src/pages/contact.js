@@ -13,9 +13,6 @@ function contact() {
         <link rel="icon" href="/leaf.png" />
       </Head>
       <Navbar />
-      <div className={styles.body}>
-        <h1 className={styles.heading}>This is the contact page</h1>
-      </div>
     </>
   )
 }
