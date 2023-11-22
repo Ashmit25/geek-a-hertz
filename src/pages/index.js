@@ -21,13 +21,42 @@ export default function Home() {
             Lorem nisi cupidatat fugiat ullamco voluptate deserunt quis
             cupidatat excepteur labore Lorem eu. Aliquip voluptate pariatur
             incididunt officia esse nisi. Ipsum excepteur consectetur eiusmod
-            consectetur sit ipsum dolor.Lorem nisi cupidatat fugiat ullamco voluptate deserunt quis
-            cupidatat excepteur labore Lorem eu.
+            consectetur sit ipsum dolor.Lorem nisi cupidatat fugiat ullamco
+            voluptate deserunt quis cupidatat excepteur labore Lorem eu.
           </p>
-          <Link href="/product"><button>Click Me!! ➡</button></Link>
+          <div className={styles.homebuttons}>
+            <a id="link" href="#about_us">
+              <button>Who Are We?</button>
+            </a>
+            <Link href="/products">
+              <button>Click Me!! ➡</button>
+            </Link>
+          </div>
         </div>
-        <Image src="/kitten.jpg" alt="placeholder image" width={400} height={400} />
+        <Image
+          src="/kitten.jpg"
+          alt="placeholder image"
+          width={400}
+          height={400}
+        />
       </main>
+      <div id="about_us">
+        <h2 className={styles.heading}>About Us</h2>
+        <div className={styles.aboutus}>
+          <p className={styles.aboutpara}>
+            Anim nostrud dolore elit quis nisi. Ad minim qui non ipsum est. Ad
+            veniam nostrud labore eiusmod cupidatat quis enim laborum occaecat
+            labore adipisicing Lorem. Consequat amet nisi consequat consequat ut
+            esse amet culpa ullamco est exercitation Lorem ipsum aliqua.
+          </p>
+          <p className={styles.aboutpara}>
+            Anim nostrud dolore elit quis nisi. Ad minim qui non ipsum est. Ad
+            veniam nostrud labore eiusmod cupidatat quis enim laborum occaecat
+            labore adipisicing Lorem. Consequat amet nisi consequat consequat ut
+            esse amet culpa ullamco est exercitation Lorem ipsum aliqua.
+          </p>
+        </div>
+      </div>
     </>
   );
 }

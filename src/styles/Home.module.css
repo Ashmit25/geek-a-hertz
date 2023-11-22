@@ -1,37 +1,60 @@
+.heading {
+    text-align: center;
+}
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.25rem 1.75rem 0 1.75rem;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 1.75rem 0 1.75rem;
+  align-items: center;
 }
 
 .navlinks {
-    display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-    cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  cursor: pointer;
 }
 
 .navlink {
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-    text-decoration: underline black;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: underline black;
 }
 
 .navlink:hover {
-    color: var(--primary);
-
+  color: var(--primary);
 }
 
 .activenav {
-    color: var(--primary);
-    font-size: 18px;
-    cursor: pointer;
-    text-decoration: underline #53d49c9f;
-    text-decoration-thickness: 3px;
+  color: var(--primary);
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: underline #53d49c9f;
+  text-decoration-thickness: 3px;
 }
 
 .hometext {
-    width: 400px;
+  width: 400px;
+}
+
+.homebuttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+.aboutus {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.aboutpara {
+    width: 70vw;
 }
