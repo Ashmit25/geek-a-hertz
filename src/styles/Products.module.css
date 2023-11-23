@@ -1,0 +1,19 @@
+.heading {
+  text-align: center;
+  font-size: 40px;
+  color: var(--primary);
+  font-weight: bold;
+  margin: 40px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+  width: 100%;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}

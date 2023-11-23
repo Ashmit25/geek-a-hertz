@@ -17,10 +17,9 @@ export default function Home() {
         <div className={styles.hometext}>
           <h1>Making The Future Sustainable, One Appliance At A Time</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
-            nostrum atque reprehenderit? Nulla accusamus sapiente libero quod
-            laborum assumenda itaque numquam, quos modi dolor, dolorum magni.
-            Eveniet fuga rerum provident?
+            At Viror we aim at creating a sustainable and eco-friendly
+            environment. With our wide-variety of products we hope in making
+            nature less polluted and help communities and people in need.
           </p>
           <div className={styles.homebuttons}>
             <a id="link" href="#about_us">

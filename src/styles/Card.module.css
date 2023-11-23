@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  width: 900px;
+  border-radius: 17px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.img {
+  height: auto;
+  width: 100%;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+}
+
+.type {
+  color: var(--secondary);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.description {
+  display: flex;
+  margin: auto;
+}
