@@ -26,6 +26,12 @@
   scroll-behavior: smooth;
 }
 
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   color: var(--primary);
   font-size: 40px;
@@ -60,6 +66,13 @@ button {
   font-size: 16px;
   outline: 2px solid var(--primary);
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #53d49cbe;
+  transition: ease-in-out 0.2s;
+  border: none;
+  color: black;
 }
 
 .mobile-nav {

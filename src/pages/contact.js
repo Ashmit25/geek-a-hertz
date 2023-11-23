@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../../components/Navbar";
+
 import styles from "@/styles/Contact.module.css";
 
 function contact() {
@@ -12,7 +12,7 @@ function contact() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/leaf.png" />
       </Head>
-      <Navbar />
+
       <h1 className={styles.heading}>Contact Us</h1>
       <div className={styles.flex}>
         <form action="/" method="POST" className={styles.form}>
