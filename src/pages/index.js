@@ -31,9 +31,10 @@ export default function Home() {
             </Link>
           </div>
         </div>
+
         <Image
           src="/promotion.png"
-          alt="placeholder image"
+          alt="Image"
           width={500}
           height={500}
           priority

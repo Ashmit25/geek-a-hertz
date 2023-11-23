@@ -131,3 +131,19 @@ button:hover {
     font-size: 20px;
   }
 }
+
+.card {
+  gap: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card > p {
+  font-size: 18px;
+}
+
+.cardcontent {
+  text-align: center;
+}
