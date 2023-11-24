@@ -5,6 +5,11 @@
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 50px;
+  cursor: pointer;
+}
+
+.container:hover {
+  box-shadow: 5px 5px 10px var(--accent);
 }
 
 .img {
@@ -19,7 +24,7 @@
 
 .type {
   color: var(--secondary);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   padding: 0;
   margin: 0;
@@ -28,4 +33,13 @@
 .description {
   display: flex;
   margin: auto;
+  align-self: center;
+}
+
+
+.left {
+  align-self: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
 }

@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <main>
         <div className={styles.hometext}>
-          <h1>Making The Future Sustainable, One Appliance At A Time</h1>
+          <h1>Making The Future Sustainable, One Service At A Time</h1>
           <p>
             At Viror we aim at creating a sustainable and eco-friendly
             environment. With our wide-variety of products we hope in making

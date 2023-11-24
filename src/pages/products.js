@@ -20,6 +20,7 @@ function about() {
           return <Card item={item} ind={index} key={index} />;
         })}
       </div>
+      <h2 className={styles.soon}>More services coming soon!</h2>
     </>
   );
 }
