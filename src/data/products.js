@@ -2,7 +2,7 @@ export const products = [
   {
     name: "Solar Panels",
     desc: "Do you think all that beautiful sunlight is going to waste and want to utilize it? Want to play your part against global warming? Our company provides you with the solar panels of the very best quality, they're waterproof too!",
-    image: "/solar.svg",
+    image: "/solar.png",
   },
   {
     name: "Rainwater Harvesting",
