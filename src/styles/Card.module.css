@@ -9,7 +9,7 @@
 }
 
 .container:hover {
-  box-shadow: 5px 5px 10px var(--accent);
+  box-shadow: 2px 5px 10px 4px var(--accent);
 }
 
 .img {
