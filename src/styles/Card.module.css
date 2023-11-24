@@ -36,10 +36,32 @@
   align-self: center;
 }
 
-
 .left {
   align-self: center;
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .img {
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+  }
+  .type,
+  .left {
+    text-align: center;
+    margin: auto;
+  }
+
+  .description {
+    margin: 10px;
+    text-align: justify;
+  }
 }

@@ -39,6 +39,10 @@
   .navlinks {
     display: none;
   }
+  .img {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .hometext {
@@ -64,5 +68,3 @@
 .aboutpara {
   width: 70vw;
 }
-
-

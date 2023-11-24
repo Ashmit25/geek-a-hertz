@@ -9,7 +9,10 @@ export default function Home() {
     <>
       <Head>
         <title>VIROR | Home</title>
-        <meta name="description" content="Viror: Working For A Sustainable Future" />
+        <meta
+          name="description"
+          content="Viror: Working For A Sustainable Future"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/leaf.png" />
       </Head>
@@ -37,6 +40,7 @@ export default function Home() {
           width={500}
           height={500}
           priority
+          className={styles.img}
         />
       </main>
       <div id="about_us">
